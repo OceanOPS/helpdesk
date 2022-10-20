@@ -1,12 +1,13 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
+title: "[Brief bug description]"
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        This bug report will be analyzed, put into the correct project/repository and processed by our team. Please be as much accurate as possible to optimise our response time on it.
+        This bug report will be analysed, put into the correct project/repository and processed by our team. 
+        Please be as much accurate as possible to optimise our response time on it.
   - type: dropdown
     id: context
     attributes:
@@ -35,6 +36,8 @@ body:
     attributes:
       label: Describe the bug
       description: A clear and concise description of what the bug is.
+    validations:
+      required: true
   - type: textarea
     id: to-reproduce
     attributes:
