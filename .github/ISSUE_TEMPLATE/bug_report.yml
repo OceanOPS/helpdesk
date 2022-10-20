@@ -60,18 +60,18 @@ body:
       label: Software/browsing information
       description: Any information regarding what you used as a software to create this bug.
       placeholder:  Browser [e.g. chrome, safari] (Version [e.g. 22])
-   - type: textarea
+  - type: textarea
     id: other-information
     attributes:
       label: Other information
       description: Add any other information that you think can guide us into analyzing this issue.
-   - type: markdown
+  - type: markdown
     id: priority
     attributes:
       value: |
         ## Priority
         If blocking, please select the corresponding label.
-   - type: markdown
+  - type: markdown
     id: screenshots
     attributes:
       value: |
